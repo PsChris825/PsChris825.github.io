@@ -16,6 +16,7 @@
             <a class="active" href="#Home">Home</a>
             <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
+            <a href="#Projects">Projects</a>
             <!--OnClick and ondblclick fucntions added to open and close the contact form-->
             <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
         </div>
@@ -134,6 +135,146 @@
             <!--Right column-->
             <div class="Column_2">
                 <a href="https://github.com/PsChris825" target="_blank"><img src="./img/gitHub_octocat.jpg" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Project Section-->
+        <div class="Row" id="Projects">
+            <!--Left column-->
+            <div class="Column_2">
+                <div id="slideshow1">
+                    <div id="Slideshow_Background1">
+                        <div id="Slideshow_Container1">
+                            <!--Slide 1 of 6-->
+                            <div class="mySlides1 fade">
+                                <img class="Slideshow_Images1" src="img/GalagaGamePLay.png" alt="Galaga Gameplay">
+                                <div class="text">Gameplay in Unity</div>
+                            </div>
+                            <!--Slide 2 of 6-->
+                            <div class="mySlides1 fade">
+                                <img class="Slideshow_Images1" src="img/GalagaPlayerControl.png" alt="player code">
+                                <div class="text">Player C# code controlling movement</div>
+                            </div>
+                            <!--Slide 3 of 6-->
+                            <div class="mySlides1 fade">
+                                <img class="Slideshow_Images1" src="img/GalagaPlayerLiveMechanics.png" alt="player lives">
+                                <div class="text">Player c# code handling health and lives </div>
+                            </div>
+                            <!--Slide 4 of 6-->
+                            <div class="mySlides1 fade">
+                                <img class="Slideshow_Images1" src="img/GalagaEnemySpawner.png" alt="Enemy spawner">
+                                <div class="text">C# Enemy spawner code </div>
+                            </div>
+                            <!--Slide 5 of 5-->
+                            <div class="mySlides1 fade">
+                                <img class="Slideshow_Images1" src="img/GalagaWaveMechanics.png" alt="Wave Mechanics">
+                                <div class="text">C# wave mechanics</div>
+                            </div>
+                            <!--Previous and next button-->
+                            <a class="Previous" onclick="plusSlides1(-1)">&#10094;</a>
+                            <a class="Next" onclick="plusSlides1(1)">&#10095;</a>
+                        </div> 
+                        <br>
+                        
+                        <!--Slideshow dots-->
+                        <div style="text-align: center;">
+                            <span class="dot1" onclick="currentSlide(1)"></span>
+                            <span class="dot1" onclick="currentSlide(2)"></span>
+                            <span class="dot1" onclick="currentSlide(3)"></span>
+                            <span class="dot1" onclick="currentSlide(4)"></span>
+                            <span class="dot1" onclick="currentSlide(5)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>Galaga</h1>
+                <p>
+                    Using Unity I created a Galaga-like fixed 2D shooter.<br>
+    
+                    <br>I utilized C# to create a playable character and unique enemies. <br>
+                    
+                    <br>I was able to utilize skills learned create various game objects, prefabs, layers, tags, and instances to recreate this classic arcade game. 
+                </p>
+            </div>
+        </div>
+
+        <!--Project 2-->
+        <div class="Row">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>You can view my coding/game projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/PsChris825" target="_blank">Christopher Pillot-Sampson GitHub</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <div id="slideshow2">
+                    <div id="Slideshow_Background2">
+                        <div id="Slideshow_Container2">
+                            <!--Slide 1 of 6-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunGameplay.png" alt="FoxRun Gameplay">
+                                <div class="text">Fox Run Gameplay in Unreal Engine 5</div>
+                            </div>
+                            <!--Slide 2 of 6-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunGameplay2.png" alt="FoxRun gameplay2">
+                                <div class="text">Gameplay in Unreal Eninge</div>
+                            </div>
+                            <!--Slide 3 of 6-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunLevel1.png" alt="lvl1">
+                                <div class="text">level 1 </div>
+                            </div>
+                            <!--Slide 4 of 6-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunLevel2.png" alt="lvl2">
+                                <div class="text">level 2 </div>
+                            </div>
+                            <!--Slide 5 of 5-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunLevel3.png" alt="lvl3">
+                                <div class="text">level 3</div>
+                            </div>
+                            <!--Slide 6 of 8-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunPlayer.png" alt="player">
+                                <div class="text">2D player built using pixel art assets</div>
+                            </div>
+                            <!--Slide 7 of 8-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunPlayerBLueprint.png" alt="player BP">
+                                <div class="text">Player movement BP</div>
+                            </div>
+                            <!--Slide 8 of 8-->
+                            <div class="mySlides2 fade">
+                                <img class="Slideshow_Images2" src="img/FoxRunPlayerDeath.png" alt="playerDeath">
+                                <div class="text">Death Mechanic BP</div>
+                            </div>
+                            <!--Previous and next button-->
+                            <a class="Previous" onclick="plusSlides2(-1)">&#10094;</a>
+                            <a class="Next" onclick="plusSlides2(1)">&#10095;</a>
+                        </div> 
+                        <br>
+                        
+                        <!--Slideshow dots-->
+                        <div style="text-align: center;">
+                            <span class="dot2" onclick="currentSlide(1)"></span>
+                            <span class="dot2" onclick="currentSlide(2)"></span>
+                            <span class="dot2" onclick="currentSlide(3)"></span>
+                            <span class="dot2" onclick="currentSlide(4)"></span>
+                            <span class="dot2" onclick="currentSlide(5)"></span>
+                            <span class="dot2" onclick="currentSlide(6)"></span>
+                            <span class="dot2" onclick="currentSlide(7)"></span>
+                            <span class="dot2" onclick="currentSlide(8)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
 
